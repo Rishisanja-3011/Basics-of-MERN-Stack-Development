@@ -43,18 +43,51 @@ nav a{
     font-size: 25px;
     color: black;
     text-decoration: none;
+    font-weight: 500;
+}
 
-}
-section {
-   
-}
 section .title1{
     background-color: red;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    padding-top:60px ;
+    padding-left: 100px;
 }
 section .title1 h1{
-    font-size: 120px;
+    font-size: 150px;
     font-family: 'Times New Roman', Times, serif;
+    line-height: 150px;
+}
+
+nav .part2{
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+}
+
+section{
+    padding: 10px 50px;
+}
+section .videos{
+    background-color: black;
+    height: 100px;
+    width: 300px;
+    border-radius: 100px;
+    padding-right: 50px;
+}
+
+section .title2{
+    display: flex;
+
+}
+section .title2 h1{
+     font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150px;
+}
+section .title2 .para{
+    font-size: 20px;
+    
+    width: 150px;
 }
