@@ -57,3 +57,20 @@ console.log(arr[0].age)
 var a = document.querySelector('#try1')
 a.innerHTML = "Hello World!"
 a.style.backgroundColor = 'red'
+
+var r = document.querySelector("h1")
+console.log(r)
+
+var s = document.querySelector("span")
+console.log(s)
+
+var u= document.querySelector("#p1")
+console.log(u)
+
+
+
+r.addEventListener("copy",function(){
+   console.log("hello")
+   r.innerHTML = "By World!",
+   r.style.backgroundColor = "yellow"
+})
